@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        
+        // Question 1
+
+        // creat var
+        
+        var num = Number (prompt ("Enter num big then 928 or low then 532"));
+
+        // define the range of num if the number not in the range print this console
+        if (num < 532 || num > 928)
+        {
+            alert("Yes! you can get this digit")
+            console.log(num)
+        }
+        // if the number in the range print the this console
+        else
+        {
+          alert("No!!! you are in the range")
+          console.log(num)
+        } 
+        
+        //Question 2
+          
+        // define 3 number
+        var num1 = prompt("Enter a num1: ")
+        var num2 = prompt("Enter a num2: ")
+        var num3 = prompt("Enter a num3: ")
+
+        // if num2 bigger then num1 and num3 bigger then num2 print "The number increasing"
+        if (num1 < num2 && num2 < num3)
+        {
+            console.log("The number increasing")   
+        }
+        // if its not increasing print worng
+        else
+        {
+            console.log("No you worng")
+        }
+
+
+
+        // Question 3
+
+        // define 2 number  
+        var num1 = prompt("Enter your num1: ")
+        var num2 = prompt("Enter your num2: ")
+
+        // if num2 bigger then num1 print "Growing"
+        if (num1 < num2)
+        {
+            alert("Growing")
+        }
+
+        // if num2 lower then num1 print "Error"
+        else
+        {
+            alert("Error")
+        }
+
+
+        // Question 4
+
+        var x = prompt("Enter a number: ")
+
+        // 
+        console.log ((x%2 == 0)?"even" : "odd")
+
+
+
+
+        // Question 5
+
+        var num1 = prompt("Enter a num1: ")
+        var num2 = prompt("Enter a num2: ")
+
+        // if num2 lower then num1 print num2 first
+        if (num1 > num2)
+        {
+            console.log("small" ,num2)
+            console.log("big", num1)    
+        }
+
+        // if num2 bigger print num1 first
+        else
+        {
+            console.log("small" ,num1)
+            console.log("big", num2)
+        }
+
+
+        // Question 6
+
+        // define variable and print it
+        var num = prompt("Enter a number: ")
+
+        // if the user put number equal or higher then 1 he got "Num is positive"
+        if (num >= 1)
+        {
+            alert("Num is positive")
+        }
+        //if the user put number equal or lower then -1 he got "Num is negative"
+        else if (num <= -1)
+        {
+            alert("Num is negative")
+        }
+        // if the user put number 0 he got "Num is zero"
+        else
+        {
+            alert("Num is zero")
+        }
+
+
+    </script>
+    
+</body>
+</html>
